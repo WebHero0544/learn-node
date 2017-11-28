@@ -1,0 +1,20 @@
+exports.types = {
+  "html": "text/html",
+  "js": "text/javascript",
+  "css": "text/css",
+  "jpg": "image/jpeg",
+  "jpeg": "image/jpeg",
+  "png": "image/png",
+  "gif": "image/gif",
+  "svg": "image/svg+xml",
+  "tiff": "image/tiff",
+  "ico": "image/x-icon",
+  "pdf": "application/pdf",
+  "json": "application/json",
+  "swf": "application/x-shockwave-flash",
+  "txt": "text/plain",
+  "xml": "text/xml",
+  "wav": "audio/x-wav",
+  "wma": "audio/x-ms-wma",
+  "wmv": "video/x-ms-wmv"
+};
