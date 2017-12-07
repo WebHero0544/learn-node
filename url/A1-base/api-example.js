@@ -3,11 +3,9 @@ const {URL, URLSearchParams} = require('url');
 // WHATWG URLSearchParams接口和querystring模块有相似的目的，
 // 但是querystring模块的目的更加通用，因为它可以定制分隔符（＆和=）。
 // 但另一方面，这个API是专门为URL查询字符串而设计的。
-// WHATWG URLSearchParams接口和querystring模块有相似的目的，
-// 但是querystring模块的目的更加通用，因为它可以定制分隔符（＆和=）。
-// 但另一方面，这个API是专门为URL查询字符串而设计的。
 const url = new URL('https://user:pass@sub.host.com:8080/p/a/t/h?query=string#hash');
 
+debugger;
 console.log(url);
 console.log('----------')
 
