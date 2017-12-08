@@ -1,1 +1,12 @@
-使用node-inspector调试node程序
+（1）使用node-inspector调试node程序
+
+貌似node-inspector只能调试node8.x.x以下的版本，由于我用的node最新版本，并不想降级，所以并没有试图使用它
+
+（2）使用chrome插件：NiM
+
+首先在chrome应用商店搜索NiM，并下载安装
+
+然后打开chrome://inspect，配置你要启动node服务的主机名和端口号
+
+最后以node --inspect app.js启动你的应用程序（debugger模式），NiM就会自动监听你的服务
+
