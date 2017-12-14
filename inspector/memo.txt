@@ -1,1 +1,4 @@
-使用node-inspector调试node程序
+使用vs code 调试nodejs
+
+
+参考网址：https://segmentfault.com/a/1190000004136202#articleHeader3
