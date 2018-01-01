@@ -1,6 +1,10 @@
+
 （1）使用node-inspector调试node程序
 
 貌似node-inspector只能调试node8.x.x以下的版本，由于我用的node最新版本，并不想降级，所以并没有试图使用它
+
+
+
 
 （2）使用chrome插件：NiM
 
@@ -10,3 +14,14 @@
 
 最后以node --inspect app.js启动你的应用程序（debugger模式），NiM就会自动监听你的服务
 
+当服务启动后，chrome会自动打开调试页面，然后切换到Sourrces,在http.createServer回调函数中打上断点，
+
+再用chrome访问你的应用程序（比如：127.0.0.1:4000），最后就会跳转到调试页面的断点处。
+
+
+
+
+（3）使用vs code 调试nodejs
+
+
+参考网址：https://segmentfault.com/a/1190000004136202#articleHeader3
